@@ -18,5 +18,6 @@ Begin door de mappen controllers, models en views te bekijken.
 Navigeer direct naar de controllers om de pagina te zien. 
 In dit simpele systeem zijn de controllers het adres dat bezocht wordt.
 
-router.php, routes.php en _index.php zijn voorbeelduitwerkingen 
+router.php, routes.php en routing_entry.php zijn voorbeelduitwerkingen 
 van een could have (extra punten), waarin de student zelf een routing systeem bouwt.
+Zie die files voor verdere toelichting van hun werking.
