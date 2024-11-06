@@ -1,8 +1,4 @@
 <?php
-/*
- * Dit is een voorbeeld van een router object. Als studenten extra uitdaging willen kunnen ze dit proberen te maken.
- * De router wordt gebruikt om custom routes zoals in o.a. laravel te kunnen maken.
- * */
 // Basic Router Class
 class Router
 {

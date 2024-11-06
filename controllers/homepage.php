@@ -10,4 +10,4 @@ class HomepageController{
     }
 }
 
-//HomepageController::execute();
+HomepageController::execute();

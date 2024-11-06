@@ -11,4 +11,4 @@ class NewsPageController{
 }
 
 
-//NewsPageController::execute();
+NewsPageController::execute();

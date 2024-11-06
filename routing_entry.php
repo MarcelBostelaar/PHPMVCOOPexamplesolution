@@ -2,11 +2,13 @@
 /*
  * Dit is een voorbeeld van een index met een router. Extra punten/uitdaging voor studenten.
  *
- * Door de .htaccess.example file te hernoemen naar .htaccess worden alle requests naar
- * dit mapje direct naar deze file gestuurd, en kan je dus
- * mijnsite.nl/news doen ipv mijnsite.nl/routing_entry.php/news
+ * Om deze routing correct te gebruiken je de losse execute command bij elke controller weghalen,
+ * anders word elke controller uitgevoerd.
  *
- * Zie router.php voor meer info.
+ * Extra extra:
+ * Door de .htaccess.example file te hernoemen naar .htaccess worden alle requests naar
+ * dit mapje direct naar deze routing file gestuurd, en kan je dus
+ * mijnsite.nl/news doen ipv mijnsite.nl/routing_entry.php/news
  * */
 
 include_once __DIR__ . "/routes.php";

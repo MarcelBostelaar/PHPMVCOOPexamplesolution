@@ -1,5 +1,5 @@
 <?php
-//Een pagina waar je routes kan definieren. Zie de router.php voor meer info.
+//Een pagina waar je routes kan definieren.
 include_once __DIR__ . "/router.php";
 include_once __DIR__ . "/controllers/homepage.php";
 include_once __DIR__ . "/controllers/newspage.php";
