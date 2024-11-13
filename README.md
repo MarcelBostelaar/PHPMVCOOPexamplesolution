@@ -1,23 +1,14 @@
 # Voorbeelduitwerking PHP OOP MVC project
 
-Dit is een simpel voorbeeld waarin wordt aangetoont hoe je een simpel MVC project kan maken in PHP met OOP.
-Het is niet de bedoeling dat dit voorbeeld aan de studenten direct wordt gegeven. 
-Dit is een voorbeelduitwerking om de docenten te laten zien wat we uiteindelijk 
-ongeveer verwachten en hoe het er uit zou moeten/kunnen zien.
-De studenten krijgen een gelimiteerdere uitwerking die zij zelf moeten gaan invullen. 
-Deze komt in een extra mapje te staan.
+## Wat is dit
 
-Er zijn 2 hoofdvoorbeelden. 
-De hoofdpagina is een simplistischer voorbeeld, waarin er geen gebruik wordt 
-gemaakt van OOP voor het bijhouden van individuele dataobjecten. 
-De sale wordt als losse data opgehaald, maar de MVC scheiding blijft behouden.
-De niewspagina heeft een volledig uitgewerkt OOP datamodel voor 
-een niewsitem, met CRUD en database uitwisseling.
+In deze repository staat de voorbeelduitwerking van het MVC project voor de 2e jaars van de SOD opleiding van TCR.
+In de verschillende branches staan 4 "fases" van uitwerking. De complexiteit van de implementatie gaat van laag (fase 1) naar hoog (fase 3), met in fase 4 een uitbreiding in de vorm van een routing systeem. In de main branch staan alle files.
 
-Begin door de mappen controllers, models en views te bekijken.
-Navigeer direct naar de controllers om de pagina te zien. 
-In dit simpele systeem zijn de controllers het adres dat bezocht wordt.
+Deze repository is bedoelt om de docenten duidelijkheid te geven van wat de vorm van het project uiteindelijk dient te worden, en de fases helpen de studenten om duidelijke, overzichtelijke, en op elkaar voorbouwende voorbeelden te helpen. Door deze getrapte opbouw en de voorbeelduitwerking hopen we nauwer de principes van scaffolding en geleidelijk opbouwen van stof en concepten te volgen dan eerdere projecten.
 
-router.php, routes.php en routing_entry.php zijn voorbeelduitwerkingen 
-van een could have (extra punten), waarin de student zelf een routing systeem bouwt.
-Zie die files voor verdere toelichting van hun werking.
+Taal: PHP
+
+Technieken: MVC (variant: de view koppelt direct terug aan de user), OOP, ORM (Object Relation Model)
+
+Verdere informatie is te vinden in de readme in specifieke folders.
