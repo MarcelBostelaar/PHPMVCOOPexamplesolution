@@ -1,7 +1,6 @@
 <?php
 require_once __DIR__ . "/dbConnect.php";
 
-//Minder uitgebreide implementatie van een model. Maakt nog geen gebruik van OOP database werken. Conceptueel simpeler.
 class SalesModel{
     //Creates database table if it doesnt exist yet.
     public static function initializeDatabase(){

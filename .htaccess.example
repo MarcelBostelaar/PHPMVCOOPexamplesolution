@@ -1,2 +1,0 @@
-RewriteEngine On
-RewriteRule ^(.*)$ routing_entry.php [L]
