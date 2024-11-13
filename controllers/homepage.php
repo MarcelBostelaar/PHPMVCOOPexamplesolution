@@ -9,5 +9,3 @@ class HomepageController{
         HomepageView::Render($mainSale);
     }
 }
-
-HomepageController::execute();

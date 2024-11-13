@@ -21,7 +21,9 @@ class Router
         if (array_key_exists($requestedPath, $this->routes)) {
             $this->routes[$requestedPath]();
         } else {
+            //Zet response code op 404, wat aangeeft dat de pagina niet gevonden is, wordt gebruikt door apis/browser/libraries
             http_response_code(404);
+            //Haal opgeslagen functie op, en voer hem daarna uit.
             $temp = $this->notfoundRouteFunc;
             $temp();
         }

@@ -1,0 +1,3 @@
+# Voorbeelduitwerking fase 4
+
+In deze uitbreiding laten we zien hoe je een router kan programmeren in php. Hierdoor kan je zelf custom urls maken voor je website, in plaats van dat je naar de controllers moet navigeren. Het bestandje ".htaccess" zorgt er voor dat alle requests die naar deze map in de je htdocs/apache gaan in de routing_entry.php terecht komen. Uit de controllers moeten we nu wel de call naar de execute functie weghalen, omdat je anders alle paginas altijd uitvoerd.

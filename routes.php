@@ -14,6 +14,7 @@ $router = new Router(
 
 // Define routes
 // Omdat we met controllers als classes hebben gewerkt, kunnen we dit makkelijk doen!
+// We geven hier functies als values mee.
 $router->addRoute('/', function () {
     HomepageController::execute();
 });

@@ -21,7 +21,6 @@ function removeCommonStart($str1, $str2) {
 
     // Remove the common start from both strings
     $remainingStr1 = substr($str1, $commonLength);
-    $remainingStr2 = substr($str2, $commonLength);
 
     return $remainingStr1;
 }
@@ -32,7 +31,8 @@ $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 //Alles achter de / na de standaard route
 $route = removeCommonStart($path, $scriptPath);
 
-//lege route vervangen met /
+//lege route vervangen met /, 
+// omdat we in onze routes altijd met een / beginnen, en soms er wel een / aan het begin staan
 if($route == "") {
     $route = "/";
 }
