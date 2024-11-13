@@ -2,7 +2,7 @@
 /*
  * Dit is een voorbeeld van een index met een router. Extra punten/uitdaging voor studenten.
  *
- * Om deze routing correct te gebruiken je de losse execute command bij elke controller weghalen,
+ * Om deze routing correct te gebruiken, moet je de losse execute command bij elke controller weghalen,
  * anders word elke controller uitgevoerd.
  *
  * Extra extra:
