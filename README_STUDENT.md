@@ -1,0 +1,5 @@
+# Voorbeelduitwerking fase 3
+
+In deze uitbreiding hebben we de newsmodel omgevormd naar een ORM model. Dit betekend dat we niet meer met losse data werken, maar nu per nieuwsitem een "news" object maken met behulp van de "news" class. Deze class heeft alle CRUD methodes en een aantal statische helperfunctions.
+
+Dit model van met data werken wordt ook gebruikt in systemen zoals Laravel, Django, APS MVC en vele anderen, en in de "echte" proffesionele frameworks kunnen ze hierdoor ook dingen doen zoals caching en andere optimalisaties, en automatisch opslaan na een verandering. In dit voorbeeldproject hebben we deze mooie dingen niet, maar in de echte frameworks zorgen ze er voor dat je vrijwel niet meer hoeft na te denken over "de database", en het verschil tussen simpele variabelen en dingen in de database verdwijnt.
